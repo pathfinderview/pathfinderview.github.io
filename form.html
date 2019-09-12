@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Host Request</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1>Request a Ghost</h1>
+
+	<form>
+		First Name<br>
+		<input type="text" name="firstname" required><br><br>
+		Last Name<br>
+		<input type="text" name="lastname" required><br><br>
+		Email<br>
+		<input type="Email" name="email" required><br><br>
+		Birthday<br>
+		<input type="date" name="birthday" required><br><br>
+		
+		Duration <br>
+		<input type="radio" name="duration" value="ultrafast"> Ultra Fast<br>
+		<input type="radio" name="duration" value="today"> Today<br>
+		<input type="radio" name="duration" value="tomorrow"> Tomorrow<br>
+		<input type="radio" name="duration" value="later"> Later<br> <br>
+
+		Services<br>
+		<select name="services" multiple>
+		<option value="JumpScare"> Jump Scare </option>	
+		<option value="LoudShriek"> Loud Shriek </option>
+		<option value="ShadowTrail"> Shadow Trail </option>
+		<option value="All"> Gimme Everything </option>
+		</select> 
+		<br> <br>
+		
+		Pets at home<br>
+		<input type="checkbox" name="pets" value="cats">Cats<br>
+		<input type="checkbox"  name="pets" value="dogs">Dogs<br>
+		<br><br>
+
+		Password<br>
+		<input type="Password" minlength="5" name="password" required>
+		<br><br>
+
+
+
+		<button type="submit">Submit</button> <button type="reset">Reset</button>
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>

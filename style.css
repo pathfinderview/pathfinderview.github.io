@@ -1,0 +1,87 @@
+body {
+
+
+	margin: 0px;
+	height: 100%;
+
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+#hero-image {
+	background-image: url(bckimage4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+.hero-text {
+
+	position: absolute;
+	color: 	white;
+}
+
+.hero-text h1 {
+
+	font-size: 4em;
+
+}
+
+
+
+.landing1 {
+
+	color: black;
+}
+
+.features{
+
+		border: 5px solid red;
+		display: inline-block;
+		padding: 5px 10px;	
+		width: 	100px;
+
+}
+
+span {
+
+	font-size: 1.5em;
+}
+
+
+.landing3 {
+
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+
+
+img {
+
+	height: 200px;
+	width: 200px;
+	margin: 10px 5px 5px 5px;
+	transition: 1s;
+	
+}
+
+
+img:hover {
+
+	transform: scale(1.09);
+}
+
